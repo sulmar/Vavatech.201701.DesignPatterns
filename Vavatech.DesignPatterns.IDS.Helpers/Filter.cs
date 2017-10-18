@@ -9,16 +9,16 @@ namespace Vavatech.DesignPatterns.IDS.Helpers
 {
     public class Filter
     {
-        private IStrategy strategy;
+        public IStrategy Strategy { get; private set; }
 
         public Filter(IStrategy strategy)
         {
-            this.strategy = strategy;
+            this.Strategy = strategy;
         }
 
         public bool IsAllowed(Frame frame)
         {
-            return strategy.IsAllowed(frame);
+            return Strategy.IsAllowed(frame);
         }
     }
 }

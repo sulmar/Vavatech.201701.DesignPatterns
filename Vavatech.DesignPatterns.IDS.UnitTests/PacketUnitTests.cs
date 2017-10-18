@@ -55,9 +55,29 @@ namespace Vavatech.DesignPatterns.IDS.UnitTests
 
             var filter = new Filter(strategy);
 
+            IList<IProvider> providers = new List<IProvider>();
+            providers.Add(new ConsoleProvider());
+            providers.Add(new SmsProvider());
+
             foreach (Frame frame in frames)
             {
                 var result = filter.IsAllowed(frame);
+
+                if (!result)
+                {
+                    var alert = new Alert
+                    {
+                        CreateDate = DateTime.Now,
+                        Frame = frame,
+                        Message = filter.Strategy.GetType().Name
+                    };
+
+                    foreach (var provider in providers)
+                    {
+                        provider.Send(alert);
+                    }
+
+                }
             }
 
         }
