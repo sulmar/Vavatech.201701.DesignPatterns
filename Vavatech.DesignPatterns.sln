@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DesignPatterns.IDS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DesignPatterns.IDS.Helpers", "Vavatech.DesignPatterns.IDS.Helpers\Vavatech.DesignPatterns.IDS.Helpers.csproj", "{7E14F135-AE1F-47E0-B890-A5FE2B079C3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DesignPatterns.CSharp.RxDemo", "Vavatech.DesignPatterns.CSharp.RxDemo\Vavatech.DesignPatterns.CSharp.RxDemo.csproj", "{2B7AF7C0-FC42-4356-A4BD-0A238918A767}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{7E14F135-AE1F-47E0-B890-A5FE2B079C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E14F135-AE1F-47E0-B890-A5FE2B079C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E14F135-AE1F-47E0-B890-A5FE2B079C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7AF7C0-FC42-4356-A4BD-0A238918A767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7AF7C0-FC42-4356-A4BD-0A238918A767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7AF7C0-FC42-4356-A4BD-0A238918A767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7AF7C0-FC42-4356-A4BD-0A238918A767}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,6 +186,7 @@ Global
 		{702FEFE0-4F9B-4DA9-A939-2D7DBA64B364} = {B687EFC0-88FF-41DF-8424-60A4F7E5C6AF}
 		{692BE245-E272-4092-9D7A-9EACB3A14F89} = {B687EFC0-88FF-41DF-8424-60A4F7E5C6AF}
 		{7E14F135-AE1F-47E0-B890-A5FE2B079C3C} = {B687EFC0-88FF-41DF-8424-60A4F7E5C6AF}
+		{2B7AF7C0-FC42-4356-A4BD-0A238918A767} = {82BFCAAF-EDF2-47C6-92A1-31EC0BA549A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E0DD5B5-8533-45F1-BC87-4286FEF8B78F}
